@@ -14,7 +14,7 @@ from keras.datasets import mnist
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
-sys.path.insert(0, "lib")
+sys.path.insert(0, "/home/s1520203/Bitbucket/deep-forest/gcForest/lib")
 
 from gcforest.gcforest import GCForest
 from gcforest.utils.config_utils import load_json
